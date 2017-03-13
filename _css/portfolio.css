@@ -1,0 +1,22 @@
+div.field_named_2
+{
+    text-align: center;
+    padding: 8px;
+    background-color: #f1f1f1;
+    margin-bottom: 8px;
+}
+
+div.field_named_3
+{
+    text-align: center;
+    padding: 8px;
+    background-color: #f1f1f1;
+    margin-bottom: 8px;
+}
+
+div.field_named_2  img,
+div.field_named_3  img
+{
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,19 @@
+ * add  Ace code editor to textareas for template files and CSS. other PHP files should always be done in a code editor like
+ phpstorm to ensure proper code and system structure.
+
+ * set up encryption for sqlite system database
+
+ * finish content types system and database using blog as example type.
+
+ * build taxonomy module
+
+ * build content type parent child relationship system
+ 
+ *  https://www.sqlite.org/sharedcache.html  multiple connections and shared cache mode for sqlite
+
+ * fractel database architecture using in-memory  https://www.sqlite.org/inmemorydb.html
+
+ * all content data stored in jsond format
+
+ * behaviors for content types. example being to make a content type behave as a block or a blocks system for inserting content.
+ 

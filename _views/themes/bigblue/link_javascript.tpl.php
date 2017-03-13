@@ -1,0 +1,1 @@
+<script src="<?php echo $cck->_url($path, TRUE ); ?>"></script>

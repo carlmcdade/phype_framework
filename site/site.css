@@ -1,0 +1,151 @@
+#root-content {
+    background-color: #ffffff;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#the-dev
+{
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+
+.the-developer
+{
+    background-color: #f1f1f1;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    padding: 12px;
+    min-height: 200px;
+}
+
+#header
+{
+    background-image: url("http://cck.fhqk.com/site/1-freedom-personal.jpg");
+    background-repeat: no-repeat;
+    background-position: -148px -727px;
+    background-color: #111;
+    min-height: 220px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+h1.head-title
+{
+    color: #f1f1f1;
+    font-size: 2.5em;
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Arial, Verdana, sans-serif;
+    position: absolute;
+    top: 48px;
+    left: 65px;
+}
+
+h2#price-container
+{
+    text-align: center;
+    display:block;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+    background-color: rgba(255, 203, 29, 0.71);
+    border: 1px solid rgb(254, 156, 6);
+}
+h2#price-container sup
+{
+    display: inline-block;
+    font-size: 18px;
+    left: 2px;
+    position: relative;
+    text-decoration: underline;
+    top: -17px;
+
+}
+
+div#price-slider
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width:50%;
+    
+}
+
+div#price-slider span#plus
+{
+    position: absolute;
+    top: -2px;
+    left: 2%;
+}
+
+div#price-slider span#minus
+{
+    position: absolute;
+    top: -2px;
+    right: 2%;
+}
+
+div#price-slider input
+{
+    border:1px solid #ffffff;
+    border-radius: 3px;
+    -webkit-appearance: none;
+
+
+
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: rgba(255, 203, 29, 0.71);
+    margin-top: -4px;
+}
+
+input[type=range]:focus
+{
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track
+{
+    background: #ddd;
+}
+
+input[type=range]::-moz-range-track {
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 203, 29, 0.71);
+}
+
+div#pay-button input
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}

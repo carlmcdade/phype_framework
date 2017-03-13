@@ -1,0 +1,1279 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    /*width: 85%;*/
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    /* width: 80%; */
+}
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns          { margin-left: 8.66666666667%; }
+  .offset-by-two.column,
+  .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .offset-by-three.column,
+  .offset-by-three.columns        { margin-left: 26%;            }
+  .offset-by-four.column,
+  .offset-by-four.columns         { margin-left: 34.6666666667%; }
+  .offset-by-five.column,
+  .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .offset-by-six.column,
+  .offset-by-six.columns          { margin-left: 52%;            }
+  .offset-by-seven.column,
+  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+  .offset-by-eight.column,
+  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+  .offset-by-nine.column,
+  .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .offset-by-ten.column,
+  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  color: #222; }
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+p {
+  margin-top: 0; }
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+/*  control panel */
+.site-wrap {
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    -webkit-box-shadow: -5px 0px 20px 0px rgb(0,0,0);
+    -moz-box-shadow: -5px 0px 20px 0px rgb(0,0,0);
+    box-shadow: -5px 0px 20px 0px rgb(0, 0, 0);
+
+}
+
+.controlcanvas {
+    background: #111;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.controlcanvas .left-container
+{
+    color: #FFFFFF;
+    padding: 1em;
+    margin: 14px 0 0 14px;
+    position: absolute;
+    width: 20%;
+}
+.controlcanvas .access-container
+{
+    color: #FFFFFF;
+    padding: 1em;
+    margin: 14px 0 0 14px;
+    width: 20%;
+    position: absolute;
+    left: 21%;
+}
+.controlcanvas input,
+.controlcanvas .button,
+.controlcanvas button,
+.controlcanvas input[type="submit"],
+.controlcanvas input[type="reset"],
+.controlcanvas input[type="button"]
+{
+    color: #a1a1a1;
+}
+
+.nav-trigger {
+    position: absolute;
+    right: 40px;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 15px;
+    right: 40px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #A4B9D1;
+    background-size: contain;
+}
+
+label[for="nav-trigger"]::after,label[for="nav-trigger"]::before{
+    position:absolute;
+    top:14px;
+    left:5px;
+    content:'';
+    display:block;
+    width:20px;
+    height:2px;
+    background-color: #000000;
+    z-index: 3;
+
+}
+label[for="nav-trigger"]::after{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.nav-trigger:checked + label {
+     background-color: #d1d1d1;
+     right: 40px;
+ }
+
+.nav-trigger:checked + label[for="nav-trigger"]::after {
+    display:none;
+}
+
+.nav-trigger:checked ~ label[for="access-trigger"] {
+    display:block;
+}
+
+/* when side bar is checked do this */
+.nav-trigger:checked ~ .site-wrap {
+    transform: translateX(28%) scale(1);
+    width: 78.25%;
+}
+
+.nav-trigger:checked ~ .site-wrap #main-menu
+{
+    margin:0 10px 10px;
+}
+
+.nav-trigger:checked ~ .site-wrap #sub-menu
+{
+    margin-left:5px;
+}
+.nav-trigger:checked ~ .site-wrap #site-name {
+    position: relative;
+    left:40px;
+}
+
+.access-trigger {
+    position: absolute;
+    right: 60px;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="access-trigger"] {
+    position: fixed;
+    top: 15px;
+    right: 75px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #A4B9D1;
+    background-size: contain;
+    display:none;
+}
+
+label[for="access-trigger"] span.hook
+ {
+    background-color: #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    height: 10px;
+    left: 7px;
+    position: absolute;
+    top: 5px;
+    width: 16px;
+    z-index: 3;
+ }
+
+label[for="access-trigger"] span.hook-eye {
+    background-color: #A4B9D1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: block;
+    height: 7px;
+    left: 9px;
+    position: absolute;
+    top: 7px;
+    width: 12px;
+    z-index: 3;
+}
+label[for="access-trigger"] span.case
+{
+    background-color: #000000;
+    display: block;
+    height: 11px;
+    left: 5px;
+    position: absolute;
+    top: 15px;
+    width: 20px;
+    z-index: 3;
+}
+label[for="access-trigger"] span.hook-open
+{
+    background-color: #d1d1d1;
+    display: none;
+    height: 12px;
+    left: 13px;
+    position: absolute;
+    top: 1px;
+    width: 4px;
+    z-index: 3;
+
+}
+
+.access-trigger:checked + label[for="access-trigger"] {
+    background-color: #d1d1d1;
+}
+
+.access-trigger:checked + label[for="access-trigger"] span.hook-eye {
+    background-color: #d1d1d1;
+}
+.access-trigger:checked + label[for="access-trigger"] span.hook-open {
+    display: block;
+}
+
+.access-trigger:checked ~ .controlcanvas .left-container{
+    left:21%;
+}
+
+.access-trigger:checked ~ .controlcanvas .access-container {
+    left:0;
+}
+
+/* navigation menu form elements */
+#root_nav_wrap
+{
+    position: relative;
+    z-index:1;
+}
+#root_nav_wrap .message
+{
+    position: relative;
+    background-color: #ffffff;
+    z-index:1;
+    width:100%;
+    top:34px;
+    height:auto;
+}
+
+.forms-menu
+{
+    display:none;
+    z-index:1;
+    width:100%;
+    background-color: #FFFFFF;
+}
+.forms-menu span
+{
+    display: block;
+    width: 100px;
+    float: left;
+    margin: 3px;
+}
+.forms-menu span a
+{
+    display: block;
+    width: 100px;
+    padding:4px;
+    border: 1px solid #f16870;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+}
+ .forms-menu span a:hover
+ {
+     background-color: #f16870;
+     color: #FFFFFF;
+
+ }
+.menu-trigger {
+    position: absolute;
+    top: -30px;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="menu-trigger"] {
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(232, 49, 63, 0.7);
+}
+
+label[for="menu-trigger"]::after,label[for="menu-trigger"]::before{
+    position:absolute;
+    top:14px;
+    left:5px;
+    content:'';
+    display:block;
+    width:20px;
+    height:2px;
+    background-color: #000000;
+    z-index: 3;
+
+}
+label[for="menu-trigger"]::after{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.menu-trigger:checked + label {
+    background-color: #d1d1d1;
+}
+
+.menu-trigger:checked + label[for="menu-trigger"]::after {
+    display:none;
+}
+
+.menu-trigger:checked ~ #root_nav_wrap .forms-menu
+{
+    display:block;
+    position: relative;
+    top:32px;
+    left: 0px;
+
+}
+.menu-trigger:checked ~ #root_nav_wrap .message
+{
+    display:none;
+}
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+    width:100%;
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="datetime"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset
+{
+  border-radius: 4px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+input[disabled] {
+    background:#ccc;
+    border-color: #ccc;
+    text-shadow:none;
+}
+button[disabled] {
+    background:#ccc;
+    border-color: #ccc;
+    text-shadow:none;
+}
+select[disabled] {
+    background:#ccc;
+    border-color: #ccc;
+    text-shadow:none;
+}
+input[readonly] {
+    background:#f1f1f1;
+    text-shadow:none;
+}
+span.element-description
+{
+    font-size: 0.85em;
+    display: block;
+    padding:0;
+    margin: 0;
+    font-style: italic;
+    color: #a1a1a1;
+    margin: 0 0 22px 0;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+div.required > input
+{
+    width: 95.2%;
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside; }
+ol {
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+li {
+  margin-bottom: 1rem; }
+
+/**/
+div#foot
+{
+    margin-top: 20px;
+    background-color: #A4B9D1;
+}
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+pre.debug
+{
+    float: left;
+    margin: 38px 0 0;
+    padding: 10px;
+    width: 100%;
+}
+
+#messages .success
+{
+    background-color: #c8f2a3;
+    border: 1px solid #7ce67b;
+    padding-top:20px;
+    opacity: 0;
+    max-height: 0;
+    -webkit-animation: fademessage 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fademessage 3s; /* Firefox < 16 */
+    -ms-animation: fademessage 3s; /* Internet Explorer */
+    -o-animation: fademessage 3s; /* Opera < 12.1 */
+    animation: fademessage 3s;
+
+}
+
+#messages .success li
+{
+    color: #07b509;
+}
+
+@-webkit-keyframes fademessage {
+    0% { opacity: 1; max-height: 500px; }/* from */
+    100%   { opacity: 0;}/* to */
+}
+@-moz-keyframes fademessage {
+    0% { opacity: 1;max-height: 500px;}
+    100%   { opacity: 0;}
+}
+@-o-keyframes fademessage {
+    0% { opacity: 1;max-height: 500px;}
+    100%   { opacity: 0;}
+}
+@keyframes fademessage {
+    0% { opacity: 1;max-height: 500px;}
+    100%   { opacity: 0;}
+}
+
+#messages .notice {
+    background-color: rgba(255, 255, 139, 0.84);
+    border: 1px solid #fff65b;
+    padding-top:20px;
+    opacity: 0;
+    max-height: 0;
+    -webkit-animation: fademessage 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fademessage 3s; /* Firefox < 16 */
+    -ms-animation: fademessage 3s; /* Internet Explorer */
+    -o-animation: fademessage 3s; /* Opera < 12.1 */
+    animation: fademessage 3s;
+}
+
+#messages .error
+{
+    background-color: #ffd4db;
+    border: 1px solid #f16870;
+    padding-top:20px;
+    opacity: 0;
+    -webkit-animation: fademessage 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fademessage 3s; /* Firefox < 16 */
+    -ms-animation: fademessage 3s; /* Internet Explorer */
+    -o-animation: fademessage 3s; /* Opera < 12.1 */
+    animation: fademessage 3s;
+
+}
+
+.error
+{
+    background-color: #ffd4db;
+    border: 1px solid #f16870;
+    padding:10px;
+
+}
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  }
+
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+    margin-bottom: 2.5rem;
+    color:#999;
+}
+p
+{
+    color:#777;
+}
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
+
+/* SQUARED THREE */
+.squaredThree {
+    margin: 10px auto;
+    position: relative;
+
+}
+
+.squaredThree label {
+    cursor: pointer;
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    top: 0;
+    background-color: #f16870;
+    display: block;
+    color:#111;
+
+
+}
+
+.squaredThree label span.a{
+    position: absolute;
+    width: 18px;
+    height: 4px;
+    top: 14px;
+    left: 8px;
+    background-color: #111;
+    display: block;
+    color:#111;
+
+}
+.squaredThree label span.b{
+    position: absolute;
+    width: 18px;
+    height: 4px;
+    top: 14px;
+    left: 8px;
+    background-color: #111;
+    display: block;
+    color:#111;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}
+.squaredThree label span.c{
+    position: absolute;
+    right: 12px;
+    top:3px;
+    display: block;
+    color:#111;
+    text-wrap: none;
+
+}
+
+.squaredThree input:checked ~ label {
+    display:block;
+    background-color: #c8f2a3;
+}
+
+.squaredThree input:checked ~ label span.a{
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+    width: 10px;
+}
+.squaredThree input:checked ~ label span.b{
+    -moz-transform: rotate(-52deg);
+    -ms-transform: rotate(-52deg);
+    -o-transform: rotate(-52deg);
+    transform: rotate(-52deg);
+    top: 12px;
+    left: 12px;
+
+}
+
+/* SQUARED Four */
+.squaredFour {
+    height: 30px;
+    margin: 10px auto;
+    position: relative;
+
+}
+
+.squaredFour input
+{
+    top: -28px;
+    left: 0px;
+    position: relative;
+    border: 1px solid #999;
+
+}
+
+.squaredFour .element-description
+{
+    display: block;
+    margin: 0;
+    position: absolute;
+}
+
+.squaredFour label {
+    cursor: pointer;
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    top: -40px;
+    background-color: rgb(200, 242, 163);/*background-color: #c8f2a3;*/
+    display: block;
+    color:#111;
+
+
+}
+
+.squaredFour label span.a{
+    position: absolute;
+    height: 4px;
+    top: 18px;
+    left: 7px;
+    background-color: #111;
+    display: block;
+    color:#111;
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+    width: 10px;
+
+}
+.squaredFour label span.b{
+    position: absolute;
+    width: 18px;
+    height: 4px;
+    top: 14px;
+    left: 10px;
+    background-color: #111;
+    display: block;
+    color:#111;
+    -webkit-transform: rotate(128deg);
+    -moz-transform: rotate(128deg);
+    -ms-transform: rotate(128deg);
+    -o-transform: rotate(128deg);
+    transform: rotate(128deg);
+
+}
+.squaredFour label span.c{
+    position: absolute;
+    right: 12px;
+    top:3px;
+    display: block;
+    color:#111;
+    text-wrap: none;
+
+}
+
+.squaredFour input:checked ~ label {
+    display:block;
+    background-color: #f16870;
+}
+
+.squaredFour input:checked ~ label span.a{
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 21px;
+    top: 13px;
+    left: 6px;
+}
+.squaredFour input:checked ~ label span.b{
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 13px;
+    left: 6px;
+    width: 21px;
+
+}
+
+.instructions
+{
+    margin: 0 0 10px 0;
+}
+
+.wysihtml5-toolbar
+{
+    margin-bottom: 8px;
+}
+
+.wysihtml5-toolbar a.command
+{
+    background-color: rgba(234, 76, 91, 0.58);
+    display: inline-block;
+    margin-top: 4px;
+    padding: 3px 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #111;
+}
+
+.wysihtml5-toolbar a:hover.command
+{
+    background-color: #f16870;
+}
+
+
+
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px)
+{   /* border collapse is required for any borders to appear */
+    .csstable { display: table; border-collapse: collapse; }
+    .csstr { display: table-row }
+    .cssthead { display: table-header-group; border-bottom: 2px solid #eaeaea; }
+    .csstbody { display: table-row-group }
+    .csstfoot { display: table-footer-group }
+    .csscol { display: table-column }
+    .csscolgroup { display: table-column-group }
+    .csstd  { display: table-cell; padding: 4px; }
+    .cssth { display: table-cell; font-weight: 600; padding: 0 0 0 4px; }
+    .csscaption { display: table-caption }
+    .csslabel{ display: none; }
+    .cssnlbr{ display: none; }
+    .csstr:nth-child(even) {
+        background-color: #f1f1f1;
+    }
+}
+
+/* smaller than tablet */
+@media (max-width: 750px)
+{   /* border collapse is required for any borders to appear */
+    .csstable { display: block }
+    .csstr { display: block; border: 1px solid #e1e1e1; padding: 4px; margin-bottom: 4px;}
+    .cssthead { display: none }
+    .csstbody { display: block }
+    .csstfoot { display: none }
+    .csscol { display: block }
+    .csscolgroup { display: block }
+    .csstd  { display: inline-block }
+    .cssth { display: none; font-weight: 600;  }
+    .csscaption { display: table-caption }
+    .csslabel{ display: inline-block; font-weight: 600; padding-right:6px; }
+    .cssnlbr{ display: block; height: 3px;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/* small phone */
+@media handheld and (max-width: 480px), screen and (max-width: 480px)
+{
+  .container
+  {
+      width: 100%;
+      padding: 0;
+  }
+  .one-half.column
+  {
+      padding: 0 10px;
+  }
+
+  #site-name
+  {
+
+    margin-bottom:10px;
+    width:100%;
+
+    position: relative;
+    top:-12px;
+
+  }
+  #site-name-text
+  {
+
+    display: block;
+    width:100%;
+    text-align: center;
+
+  }
+
+  #page-name
+  {
+    text-align: center;
+  }
+
+  #page-name-text
+  {
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main-menu
+  {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+  }
+  #sub-menu
+  {
+    background-color: #e1e1e1;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding-top: 9px;
+    border: 0px;
+    margin: 0;
+  }
+  #main-menu li,
+  #sub-menu li
+  {
+    display: block;
+  }
+  #main-menu li a
+  {
+    display: block;
+    padding: 6px;
+  }
+  #sub-menu li a
+  {
+    display: block;
+    padding: 6px ;
+    border-color: rgb(209, 209, 209);
+  }
+    #admin-section .row .columns .section-title
+    {
+        padding: 0 0  4px 6px;
+
+    }
+
+    .controlcanvas .left-container
+    {
+        color: #FFFFFF;
+        padding: 1em;
+        margin: 20px auto 0 auto;
+        position: relative;
+        width:100%;
+    }
+
+    .controlcanvas .access-container
+    {
+        color: #FFFFFF;
+        padding: 1em;
+        margin: 20px auto 0 auto;
+        position: relative;
+        width:100%;
+        top:0;
+        left: 0;
+        display:none;
+    }
+
+
+
+    .nav-trigger {
+        position: absolute;
+        right: 20%;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    label[for="nav-trigger"] {
+        position: fixed;
+        top: 15px;
+        right: 10%;
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background-color: rgba(232, 49, 63, 0.7);
+        background-size: contain;
+    }
+
+
+
+
+    .nav-trigger:checked + label {
+        right: 20%;
+    }
+    .nav-trigger:checked ~ .site-wrap {
+
+        transform: translateX(140%) scale(1);
+
+    }
+    label[for="access-trigger"] {
+        position: fixed;
+        top: 15px;
+        right: 32%;
+        z-index: 3;
+
+    }
+
+    .access-trigger:checked ~ .controlcanvas .access-container
+    {
+        color: #FFFFFF;
+        padding: 1em;
+        width:100%;
+        top:0;
+        left:0;
+        display:block;
+    }
+    .access-trigger:checked ~ .controlcanvas .left-container
+    {
+        display:none;
+    }
+
+
+
+
+}

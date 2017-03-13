@@ -1,0 +1,134 @@
+/* menu and items*/
+body
+{
+    background-color: #f1f1f1;
+}
+
+#menu {
+    clear: both;
+}
+#menu a {
+    display: inline-block;
+    margin-right: 10px;
+}
+span.section {
+    display: inline-block;
+    margin-top: 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a1a1a1;
+    font-family: Arial, "Sans-serif"
+}
+
+span.logo {
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+    margin-right: 34px;
+    margin-left: 34px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-right: 1px solid #999;
+}
+
+#our-host {
+    background-color: rgb(206, 182, 203);
+    border-top: 1px solid rgba(193, 122, 194, 1);
+    border-bottom: 3px solid rgba(193, 122, 194, 1);
+    font-size: 12px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    clear:both;
+}
+#our-host-engineering {
+    background-color: rgba(255, 203, 29, 0.71);
+    border-top: 1px solid rgb(254, 156, 6);
+    border-bottom: 3px solid rgb(254, 156, 6);
+    font-size: 12px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    clear:both;
+}
+#our-host-energy {
+    background-color: rgba(157, 227, 95, 0.74);
+    border-top: 1px solid rgb(33, 243, 10);
+    border-bottom: 3px solid rgb(33, 243, 10);
+    font-size: 12px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    clear:both;
+}
+
+.section-label-container-tec
+{
+    display:block;
+    text-align: center;
+    text-transform: uppercase ;
+    margin-bottom: 2px;
+    background-color: rgb(206, 182, 203);
+    border-top: 1px solid rgba(193, 122, 194, 1);
+    border-bottom: 3px solid rgba(193, 122, 194, 1);
+    color:#999;
+
+}
+.section-label-container-eng
+{
+    display:block;
+    text-align: center;
+    text-transform: uppercase ;
+    margin-bottom: 2px;
+    background-color: rgba(255, 203, 29, 0.71);
+    border-top: 1px solid rgb(254, 156, 6);
+    border-bottom: 3px solid rgb(254, 156, 6);
+    color:#999;
+
+}
+
+.section-label-container-nrg
+{
+    display:block;
+    text-align: center;
+    text-transform: uppercase ;
+    margin-bottom: 2px;
+    background-color: rgba(157, 227, 95, 0.74);
+    border-top: 1px solid rgb(33, 243, 10);
+    border-bottom: 3px solid rgb(33, 243, 10);
+    color:#999;
+
+}
+
+.header
+{
+    height:auto;
+    background-color: #FFFFFF;
+}
+
+#root-content
+{
+    clear:both;
+    position:relative;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+#root-content .row2
+{
+    white-space: nowrap;
+}
+table.g-ads
+{
+    margin-left:auto;
+    margin-right: auto;
+}
+table.g-ads td
+{
+    padding:0;
+}

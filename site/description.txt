@@ -1,0 +1,60 @@
+Build better, faster and scalable websites with this minimalist content creation tool. Designed for and built with new PHP featrures. Does all that the market leaders do only better.
+
+A content management framework  that's out-of-the-box ready for small businesses, non-profits and ngo's to use and build.
+
+The Content Connection Kit attempts to have the same relationship with the PHP language that Jquery has with JavaScript. Taking advantage of the built in capabilities of PHP. Be a small single person maintainable and secure framework that can be the core of larger projects. Starts off by providing the most bare-minimum, lightweight solution possible for hosting content on the web. Have an architecture that is scalable in content, performance and system expansion.
+
+Features:
+
+    More flexibility More scalability, more performance
+
+    Less memory. Less complication. Less cost.  all without caching
+
+    No jquery, No ajax, No Symfony, No Twig, No Yaml
+
+Site building features:
+
+Module extensibility:
+
+Modules are real classes and namespaces used to organize code and make it easy to learn by example.
+
+Content types:
+
+ Create and build content types with click ease or code.
+
+Custom fields:
+
+Content type fields are HTML5 elements that are fully customizable with click ease or code.
+
+ Rapid development
+
+ drop the directory on the server and run the site or start customizing.
+ nothing to remove or replace
+
+ Menu system
+
+menu system is seperate from the MVC router (under development)
+
+Web form builder
+
+    build HTML5 ready  forms with click ease or code (under development)
+
+Built-in Documentation system
+
+Developer Friendly
+
+A very shallow learning curve. Simple and rapid deployment. An understandable and scalable database schema. Easy theme creation using the built in capabilities and characteristics of PHP. No need to hire experts or specialists with certifications in a single content management system. CCK is not a framework built on another framework.
+
+developer requirements:
+
+To  develop websites and applications using CCK a developer needs only a basic understanding of the following building blocks of the modern web.
+
+    PHP 5.4+  or PHP 7 (once released.)
+
+    SQLite3 (built into PHP)
+
+    MVC architecture 
+
+    HTML5 (no javascript)
+
+    CSS3
