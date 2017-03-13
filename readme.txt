@@ -10,6 +10,7 @@ created 2015-06-30
     - Content Types based system for ultimate flexibility in website creation
     - Field types are real HTML5 form elements
     - Templating is Pure PHP without any third party engine such as Twig or Smarty
+    - CSS 3 based mobile device ready theme system
     - No javascript or Javascript framework is used in Phype Framework.
 
 
@@ -21,7 +22,7 @@ Features:
 	  - field types
 	  - default responsive design
 	  - example microblog
-	  - example portfolio
+	  - example image portfolio
 	  
 Demo: http://demo.phype.net/
 
