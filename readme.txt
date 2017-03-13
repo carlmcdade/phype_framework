@@ -1,24 +1,36 @@
-CCK the Content Connection Kit
+PHyPe Framework
 ========
-version 2015-06-30
+created 2015-06-30
+@author Carl McDade
+
+
+
+    - Built and designed on PHP7 from scratch code.
+    - Written in Pure PHP without a third party frameworks like Symfony
+    - Content Types based system for ultimate flexibility in website creation
+    - Field types are real HTML5 form elements
+    - Templating is Pure PHP without any third party engine such as Twig or Smarty
+    - No javascript or Javascript framework is used in Phype Framework.
+
+
 
 
 Features:
 
-      content types
-	  field types
-	  default responsive design
-	  example microblog
-	  example portfolio
+      - content types
+	  - field types
+	  - default responsive design
+	  - example microblog
+	  - example portfolio
 	  
-Demo: http://cck.fhqk.com/
+Demo: http://demo.phype.net/
 
 Requirements:
 
-    PHP version 7.0 or above.
-	SQLite3 enabled (included in PHP7)
-	JSON enabled
-	PDO enabled
+    - PHP version 7.0 or above.
+	- SQLite3 enabled (included in PHP7)
+	- JSON enabled
+	- PDO enabled
     
     
 Installation:
@@ -41,7 +53,7 @@ Configuration:
 	Once this has been set you can continue to do the configuration manually or web browse to
 	http://your_domain.com/index.php?admin/main
 	
-	Tip: If you are going to develop on a local PC then create a configuration copy for the local web server.
+	Tip: If you are going to develop simultaneously on a local PC then create a configuration copy for the local web server.
 	
 
 Architecture:
@@ -74,8 +86,8 @@ Architecture:
 
 
     
-Coming Soon:
+@TODO:
 
-Web forms.
+ - Web forms.
 
 
