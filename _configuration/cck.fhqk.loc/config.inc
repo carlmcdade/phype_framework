@@ -20,7 +20,7 @@ $settings['site']['frontpage']['description'] = "landing page url";
 //end frontpage
 
 //site_logo
-$settings['site']['site_logo']['value'] = "http://universal.fhqk.com/images/logo_med.jpg";
+$settings['site']['site_logo']['value'] = "http://phype.net/images/logo_med.jpg";
 $settings['site']['site_logo']['description'] = "path to site logo include http://";
 //end site_logo
 
@@ -55,7 +55,7 @@ $settings['site']['user_timeout']['description'] = "user is logged out automatic
 //end user_timeout
 
 //content_title
-$settings['site']['content_title']['value'] = "Content Connection Kit";
+$settings['site']['content_title']['value'] = "PHyPe Framework";
 $settings['site']['content_title']['description'] = "default page title";
 //end content_title
 
@@ -77,7 +77,7 @@ $settings['system']['version']['description'] = "";
 //end version
 
 //base_url
-$settings['system']['base_url']['value'] = "http://cck.fhqk.loc";
+$settings['system']['base_url']['value'] = "http://demo.phype.loc";
 $settings['system']['base_url']['description'] = "http location all information is delivered from";
 //end base_url
 
@@ -124,7 +124,7 @@ $settings['owner']['id']['description'] = "exclusive identification for owner in
 
 //password
 $settings['owner']['password']['value'] = "cck";
-$settings['owner']['password']['description'] = "strong password fo thesite owner";
+$settings['owner']['password']['description'] = "strong password fo the site owner";
 //end password
 
 //email
