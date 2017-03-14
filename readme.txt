@@ -5,7 +5,7 @@ created 2015-06-30
 
 
 
-    - Built and designed on PHP7 from scratch code.
+    - Built and designed on PHP7 from scratch code in strict MVC format.
     - Written in Pure PHP without a third party frameworks like Symfony
     - Content Types based system for ultimate flexibility in website creation
     - Field types are real HTML5 form elements
@@ -25,6 +25,8 @@ Features:
 	  - example image portfolio
 	  
 Demo: http://demo.phype.net/
+
+Contact Author : https://twitter.com/carlmcdade
 
 Requirements:
 
