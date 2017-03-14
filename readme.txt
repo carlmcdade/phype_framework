@@ -9,9 +9,9 @@ created 2015-06-30
     - Written in Pure PHP without a third party frameworks like Symfony
     - Content Types based system for ultimate flexibility in website creation
     - Field types are real HTML5 form elements
-    - Templating is Pure PHP without any third party engine such as Twig or Smarty
-    - CSS 3 based mobile device ready theme system
-    - No javascript or Javascript framework is used in Phype Framework.
+    - Template creation in Pure PHP without any third party engine such as Twig or Smarty
+    - CSS3 based mobile device ready and responsive theme system
+    - No javascript or Javascript framework is used in Phype Framework. Instead Phype uses CSS pseudo-classes
 
 
 
