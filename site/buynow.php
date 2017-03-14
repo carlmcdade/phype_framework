@@ -19,9 +19,9 @@
 <div id="root-content" class="container">
 
     <div class="row">
-        <div class="one-third column"><a class="section-label-container-tec" href="http://cck.fhqk.com/index.php" target="top-window">Tour the demo</a></div>
-        <div class="one-third column"><a class="section-label-container-eng"  href="http://cck.fhqk.com/site/pwyw.php" target="top-window">Buy Now</a></div>
-        <div class="one-third column"><a class="section-label-container-nrg" href="http://cck.fhqk.com/site/news.php" target="top-window">Subscribe to newsletter</a></div>
+        <div class="one-third column"><a class="section-label-container-tec" href="http://demo.phype.net/index.php" target="top-window">Tour the demo</a></div>
+        <div class="one-third column"><a class="section-label-container-eng"  href="http://demo.phype.net/site/pwyw.php" target="top-window">Buy Now</a></div>
+        <div class="one-third column"><a class="section-label-container-nrg" href="http://demo.phype.net/site/news.php" target="top-window">Subscribe to newsletter</a></div>
     </div>
 
 </div>

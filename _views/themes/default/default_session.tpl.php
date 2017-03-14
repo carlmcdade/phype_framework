@@ -46,7 +46,7 @@
 </section><!-- /#content -->
 
 <footer id="post-info" class="body">
-    <span> The Content Connection Kit project is owned and operated by &copy;2010 - Carl McDade - All rights reserved.</span>
+    <span> The project is owned and operated by &copy;2010 - Carl McDade - All rights reserved.</span>
     <span><?php echo (isset($content_footer) ? $content_footer : ''); ?></span>
 </footer>
 

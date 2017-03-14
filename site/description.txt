@@ -2,7 +2,7 @@ Build better, faster and scalable websites with this minimalist content creation
 
 A content management framework  that's out-of-the-box ready for small businesses, non-profits and ngo's to use and build.
 
-The Content Connection Kit attempts to have the same relationship with the PHP language that Jquery has with JavaScript. Taking advantage of the built in capabilities of PHP. Be a small single person maintainable and secure framework that can be the core of larger projects. Starts off by providing the most bare-minimum, lightweight solution possible for hosting content on the web. Have an architecture that is scalable in content, performance and system expansion.
+The attempts to have the same relationship with the PHP language that Jquery has with JavaScript. Taking advantage of the built in capabilities of PHP. Be a small single person maintainable and secure framework that can be the core of larger projects. Starts off by providing the most bare-minimum, lightweight solution possible for hosting content on the web. Have an architecture that is scalable in content, performance and system expansion.
 
 Features:
 

@@ -31,7 +31,7 @@
 <div class="site-wrap">
 <div class="container">
 	<div class="row">
-		<div id="site-logo" class="three columns"><a href="<?php echo (isset($site_frontpage) ? $site_frontpage : $site_root); ?>"><img alt="FHQK Universal" src="http://fhqk.com/images/logo_med.jpg"></a></div>
+		<div id="site-logo" class="three columns"><a href="<?php echo (isset($site_frontpage) ? $site_frontpage : $site_root); ?>"><img alt="PHyPe Framework" src="http://fhqk.com/images/logo_med.jpg"></a></div>
 		<div class="nine columns">
 			<div id="site-name">
 				<span id="site-name-text"><?php echo (isset($site_name) ? $site_name : 'Content Connection Kit'); ?></span><br />

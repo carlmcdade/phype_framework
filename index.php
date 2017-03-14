@@ -20,13 +20,13 @@ ini_set('opcache.enable', FALSE);
 
 
 /**
- * Content Connection Kit
+ *
  * @author Carl McDade
  * @copyright Carl McDade
  * @since 2011
  * @version 2.0
  *
- * @link http://cck.fhqk.com/
+ * @link http://demo.phype.net/
  * ==================================================================
  *  Copyright 2011 Carl Adam McDade Jr.
  *

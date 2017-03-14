@@ -5,10 +5,10 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-<title>FHQK | Content Connection Kit | <?php echo (isset($page_title) ? $page_title : ''); ?></title>
+<title>FHQK | | <?php echo (isset($page_title) ? $page_title : ''); ?></title>
 <meta name="description" content="CCK is an API-centric PHP framework for web developers to build on.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content=" content connection kit, cck, drupal, wordpress, framework, cms, hosting, webhosting, server, php,podnix">
+	<meta name="keywords" content=", cck, drupal, wordpress, framework, cms, hosting, webhosting, server, php,podnix">
 
 	<link rel="stylesheet" href="_css/default.css" type="text/css" />
 	<link rel="stylesheet" href="_css/normalize.css" type="text/css" />
@@ -89,7 +89,7 @@
 	<div class="row">
 		<div id="foot" class="sixteen columns">
 			<footer id="post-info" class="eleven columns">
-				<span> The FHQK Universal Content Connection Kit software is owned and developed by &copy;2010 - Carl McDade - All rights reserved.</span>
+				<span> The PHyPe Framework software is owned and developed by &copy;2010 - Carl McDade - All rights reserved.</span>
 				<span><?php echo (isset($content_footer) ? $content_footer : ''); ?></span>
 				<span><?php echo 'Now Running PHP version : ' . phpversion();?></span>
 			</footer>
@@ -104,7 +104,7 @@
 <?php
 
 /**
- * Content Connection Kit
+ *
  * @author Carl McDade
  * @copyright Carl McDade
  * @since 2011

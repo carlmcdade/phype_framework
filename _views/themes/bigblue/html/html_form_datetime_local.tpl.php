@@ -20,7 +20,7 @@
 <?php
 
 /**
- * Content Connection Kit
+ *
  * @author Carl McDade
  * @copyright Carl McDade
  * @since 2011

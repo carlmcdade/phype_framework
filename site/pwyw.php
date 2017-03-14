@@ -3,19 +3,19 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>FHQK Universal | Pay What You Want for CCK</title>
+	<title>PHyPe Framework | Pay What You Want for CCK</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://universal.fhqk.com/css/normalize.css">
 	<link rel="stylesheet" href="http://universal.fhqk.com/css/skeleton.css">
-    <link rel="stylesheet" href="http://cck.fhqk.com/site/site.css">
+    <link rel="stylesheet" href="http://demo.phype.net/site/site.css">
 	<link rel="icon" type="image/png" href="http://universal.fhqk.com/images/favicon.png">
 
 </head>
 <body>
 <div id="header" class="row">
-    <div class="sixteen columns"><h1 class="head-title"><span>The Content Connection Kit</span><br /><span>is freedom.</span></h1></div>
+    <div class="sixteen columns"><h1 class="head-title"><span>The</span><br /><span>is freedom.</span></h1></div>
 </div>
 <div id="root-content" class="container">
 
@@ -38,7 +38,7 @@
             programming. What you get is a clean understandable framework for adding in those items if you feel your projects
             needs them.</p>
 
-            <a href="http://cck.fhqk.com/index.php?">Tour the demo</a> | <a href="http://blog.fhqk.com">Read more</a>
+            <a href="http://demo.phype.net/index.php?">Tour the demo</a> | <a href="http://blog.fhqk.com">Read more</a>
         </div>
         <div class="one-half column">
             <h2 class="">What's it worth?</h2>
@@ -58,13 +58,13 @@
                 <input type="hidden" name="item_number" value="cck-2015-06-30">
                 <input type="hidden" name="item_name" value="cck-single-user-license">
                 <input value="150" id="amount" type="hidden" name="amount" readonly>
-                <input type="hidden" name="return" value="http://cck.fhqk.com/site/payment-complete.php/">
+                <input type="hidden" name="return" value="http://demo.phype.net/site/payment-complete.php/">
                 <div id="pay-button"><input type="submit" value="Pay with PayPal"></div>
 
             </form>
             <div class="pointer-spacer"></div>
             <div class="the-developer">
-                <img id="the-dev" src="http://cck.fhqk.com/site/carl_n.jpg"/>
+                <img id="the-dev" src="http://demo.phype.net/site/carl_n.jpg"/>
                 <h3>The developer</h3>
                 <p> Has been helping small businesses realize their internet space since 1997.</p>
 

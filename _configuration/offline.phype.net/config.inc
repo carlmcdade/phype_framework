@@ -64,7 +64,7 @@ $settings['site']['timezone']['description'] = "time zone ex. Europe/Stockholm";
 //end timezone
 
 //content_footer
-$settings['site']['content_footer']['value'] = " The FHQK Universal Content Connection Kit software is owned and developed by &copy;2010 - Carl McDade - All rights reserved. Do you want to replace Drupal with something better  faster and easier to understand?";
+$settings['site']['content_footer']['value'] = " The PHyPe Framework software is owned and developed by &copy;2010 - Carl McDade - All rights reserved. Do you want to replace Drupal with something better  faster and easier to understand?";
 $settings['site']['content_footer']['description'] = "footer message";
 //end content_footer
 

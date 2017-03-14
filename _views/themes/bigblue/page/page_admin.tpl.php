@@ -8,7 +8,7 @@
 	<title><?php echo (isset($site_name) ? $site_name : 'PHYPE | Framework'); ?> | <?php echo (isset($page_title) ? $page_title : 'PHYPE | Framework'); ?></title>
 	<meta name="description" content="CCK is an API-centric PHP framework for web developers to build on.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content=" content connection kit, cck, drupal, wordpress, framework, cms, hosting, webhosting, server, php,podnix">
+	<meta name="keywords" content=", cck, drupal, wordpress, framework, cms, hosting, webhosting, server, php,podnix">
 
 	<link rel="stylesheet" href="_css/default.css" type="text/css" />
 	<link rel="stylesheet" href="_css/normalize.css" type="text/css" />
@@ -93,7 +93,7 @@
 <?php
 
 /**
- * Content Connection Kit
+ *
  * @author Carl McDade
  * @copyright Carl McDade
  * @since 2011

@@ -57,7 +57,7 @@
 	<div class="row">
 		<div id="foot" class="sixteen columns">
 			<footer id="post-info" class="eleven columns">
-				<span> The Content Connection Kit project is owned and operated by &copy;2010 - Carl McDade - All rights reserved.</span>
+				<span> The project is owned and operated by &copy;2010 - Carl McDade - All rights reserved.</span>
 				<span><?php echo (isset($content_footer) ? $content_footer : ''); ?></span>
 				<span><?php echo 'Now Running PHP version : ' . phpversion();?></span>
 			</footer>
@@ -70,7 +70,7 @@
 <?php
 
 /**
- * Content Connection Kit
+ *
  * @author Carl McDade
  * @copyright Carl McDade
  * @since 2011

@@ -3,19 +3,19 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>FHQK Universal | Pay What You Want for CCK</title>
+	<title>PHyPe Framework | Pay What You Want for CCK</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://universal.fhqk.com/css/normalize.css">
 	<link rel="stylesheet" href="http://universal.fhqk.com/css/skeleton.css">
-    <link rel="stylesheet" href="http://cck.fhqk.com/site/site.css">
+    <link rel="stylesheet" href="http://demo.phype.net/site/site.css">
 	<link rel="icon" type="image/png" href="http://universal.fhqk.com/images/favicon.png">
 
 </head>
 <body>
 <div id="header" class="row">
-    <div class="sixteen columns"><h1 class="head-title"><span>The Content Connection Kit</span><br /><span>is freedom.</span></h1></div>
+    <div class="sixteen columns"><h1 class="head-title"><span>The</span><br /><span>is freedom.</span></h1></div>
 </div>
 <div id="root-content" class="container">
 
@@ -26,7 +26,7 @@
             <p>CCK is rapidly evolving into the most reliable website framework for  small businesses and NGOs.
             Get notified of the latest tutorials, documentation and feature highlights. </p>
 
-            <a href="http://cck.fhqk.com/index.php?">Tour the demo</a> | <a href="http://blog.fhqk.com">Read more</a>
+            <a href="http://demo.phype.net/index.php?">Tour the demo</a> | <a href="http://blog.fhqk.com">Read more</a>
         </div>
         <div class="one-half column">
             <h2 class="">Get CCK news and offers</h2>
