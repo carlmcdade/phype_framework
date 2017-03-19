@@ -96,6 +96,8 @@ After meeting the requirements.
 
 ### Overview
 
+[![Phype](http://demo.phype.net/_views/themes/default/images/MVC.png)](http://demo.phype.net/)
+
 The Phype framework interprets asked for URLs in a MVC pattern to output provided by PHP namespaces, classes and methods. The bootstrap of the index.php file detects the route and forwards the request to the controller/modules in a set order with options. Class and method in the request  the uri fo the request can be recieved in the following forms.
  
       
