@@ -106,6 +106,54 @@ The Phype framework interprets asked for URLs in a MVC pattern to output provide
 
 examples:
 
+```
+
+http://demo.phype.net/index.php?blog/blog_latest
+ the above URL translates to http://demo.phype.net/index.php?[namespace || class]/[method]
+ 
+http://demo.phype.net/index.php?admin/admin/module/blog
+ the above URL translates to http://demo.phype.net/index.php?[[namespace || class]_[type]]/[method]/[argument]
+ 
+ Using this you can trace the code being called.
+  _controllers
+          [module]
+              [module].class.inc
+              [module]_[type].class.inc
+              
+  Entering the proper strings from the above URL translates to http://demo.phype.net/index.php?[["admin" || "admin"]_["admin"]]/["module"]/["blog"].
+  Which leads to the following method locate in the "admin" module directory in the "admin_admin".class.inc file.
+  
+  function module()
+      {
+          global $cck;
+          $args = $cck->_args();
+          $output = '';
+          // get all links from each class controller
+          $main_menu = $cck->_hooks('hook_links');
+          $admin_menu = $cck->_hooks('hook_admin_links', 'admin');
+  
+          $variables['page_title'] = 'system configuration';
+          $variables['main_navigation'] = $cck->_menu_links($main_menu, 'links_main_menu');
+          $set = $cck->_get_module_config($args[0]);
+          //exit($cck->_debug($set));
+          if(is_array($set) && $set !== FALSE)
+          {
+              $admin_form = new admin_form();
+              $form = $admin_form->admin_form_view_settings($set,$args[0]);
+          }
+          else
+          {
+              $form = 'no settings file found';
+          }
+  
+          $variables['content'] = $form ;
+  
+          print $cck->_view('page_admin', $variables);
+  
+      }
+
+ 
+```
 ## Module Building
 
 ### Overview
