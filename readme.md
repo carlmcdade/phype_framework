@@ -19,7 +19,7 @@ created 2011-06-30
 
 
 
-Features:
+### Features
 
       - content types
 	  - field types
