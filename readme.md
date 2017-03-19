@@ -98,7 +98,8 @@ Architecture:
 ## Module Building
 
 ### Overview
-Modules are a set of class declaration files, any desired helper classes and a configuration file. 
+Modules are a set of class declaration files, any desired helper classes and a configuration file. Contain them in a directory of the same name
+as the modules main class file.
 ```
 _controllers
         [module]
@@ -112,11 +113,11 @@ example:
 
 ```
 _controllers
-        [blog]
-            [blog].class.inc 
-            [blog]_[admin].class.inc
-            [blog]_[form].class.inc
-            [blog]_config.inc
+        blog
+            blog.class.inc 
+            blog_[admin].class.inc
+            blog_[form].class.inc
+            blog_config.inc
 
 ```
 
