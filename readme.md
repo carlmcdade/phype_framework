@@ -91,6 +91,37 @@ Architecture:
     index.php
     .htaccess
 
+## MVC Routing
+
+### Overview
+
+## Module Building
+
+### Overview
+Modules are a set of class declaration files, any desired helper classes and a configuration file. 
+```
+_controllers
+        [module]
+            [module].class.inc 
+            [module]_[type].class.inc
+            [module]_config.inc
+
+```
+
+example: 
+
+```
+_controllers
+        [blog]
+            [blog].class.inc 
+            [blog]_[admin].class.inc
+            [blog]_[form].class.inc
+            [blog]_config.inc
+
+```
+
+
+
 
     
 @TODO:
