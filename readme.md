@@ -95,11 +95,24 @@ Architecture:
 
 ### Overview
 
+The Phype framework interprets asked for URLs in a MVC pattern to output provided by PHP namespaces, classes and methods. 
+
+ The bootstrap of the index.php file detects the route and forwards the request to the controller/modules in a set order with options.
+ 
+     *  class and method in the request  the uri fo the request can be recieved in two forms
+     *  1.)  explicit section class called: [namespace]\[class]/[method][arguments] example; content\content_admin/content_types/[arguments]
+     *  2.)  main class called: [class]/[method]/ example: blog/blog_list
+     *  3.)  section class call via naming convention : [suffix]/[namespace]/[method]  example;  [admin || form || api]/blog/blog_posts
+
+examples:
+
 ## Module Building
 
 ### Overview
+
 Modules are a set of class declaration files, any desired helper classes and a configuration file. Contain them in a directory of the same name
 as the modules main class file.
+
 ```
 _controllers
         [module]
@@ -109,14 +122,15 @@ _controllers
 
 ```
 
-example: 
+examples: 
 
 ```
 _controllers
         blog
-            blog.class.inc 
-            blog_admin.class.inc
-            blog_form.class.inc
+            blog.class.inc; //required
+            blog_admin.class.inc; // optional for hooking into admin GUI
+            blog_api.class.inc; // optional for json service
+            blog_form.class.inc; // 
             blog_config.inc
 
 ```
