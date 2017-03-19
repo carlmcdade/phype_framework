@@ -17,6 +17,20 @@ created 2011-06-30
     - No javascript or Javascript framework is used in Phype Framework. Instead Phype uses CSS pseudo-classes
 
 
+## Table of Contents
+
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [Architecture](#architecture)
+* [MVC Routing](#mvc-routing)
+* [Module Building](#module-building)
+* [Template System](#template-system)
+* [Themes](#thems)
+* [Content Types](#content-types)
+* [Forms](#forms)
+* [Fields](#fields)
+
 
 
 ### Features
