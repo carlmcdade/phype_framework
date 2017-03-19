@@ -1,4 +1,4 @@
-[![Phype](_views/themes/default/images/phype_logo_header.jp)](http://demo.phype.net/)
+[![Phype](http://demo.phype.net/_views/themes/default/images/phype_logo_header.jpg)](http://demo.phype.net/)
 
 
 Framework
