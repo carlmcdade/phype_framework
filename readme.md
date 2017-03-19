@@ -1,4 +1,4 @@
-[![Phype Framework](_views/themes/default/images/phype_logo_header.jp)](http://demo.phype.net/_views/themes/default/images/phype_logo_header.jpg)
+[![Phype Framework](_views/themes/default/images/phype_logo_header.jp)](http://demo.phype.net)
 PHyPe Framework
 ========
 created 2015-06-30
