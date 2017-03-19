@@ -193,8 +193,16 @@ _controllers
 ## Themes
 
 ### CSS3
+
+The developer needs to be familiar with CSS3 and pseudo-elements
+
 ### HTML5
+
+Phype framework uses only HTML5 forms and elements
+
 ### Responsive
+
+Out of the box responsive default themes. 
 
 ## Content Types
 
