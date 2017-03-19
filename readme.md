@@ -121,7 +121,7 @@ http://demo.phype.net/index.php?admin/admin/module/blog
               [module]_[type].class.inc
 ``` 
             
-  Entering the proper strings from the above URL translates to http://demo.phype.net/index.php?[["admin" || "admin"]_["admin"]]/["module"]/["blog"].
+  Entering the proper strings from the above URL translates to http://demo.phype.net/index.php? [["admin" || "admin"]_["admin"]]/["module"]/["blog"].
   Which leads to the following method locate in the "admin" module directory in the "admin_admin".class.inc file.
   
 ```
@@ -188,12 +188,21 @@ _controllers
 
 ## Template System
 
+### Views
 
 ## Themes
 
+### CSS3
+### HTML5
+### Responsive
+
 ## Content Types
 
+Content types are virtual containers for the forms and fields needed to create, update and delete user content. 
+
 ## Forms
+
+Phype uses HTML5 supported form elements.
 
 ## Fields
 
