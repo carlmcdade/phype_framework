@@ -25,7 +25,8 @@ Features:
 	  - field types
 	  - default responsive design
 	  - example microblog
-	  - example image portfolio
+	  - example content types with image uploader, blog
+	  - built-in inline documentation system for faster development
 	  
 Demo: http://demo.phype.net/
 
