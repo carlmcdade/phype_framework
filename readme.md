@@ -103,7 +103,6 @@ The Phype framework interprets asked for URLs in a MVC pattern to output provide
 * optional explicit path: [namespace]\[class]/[method][arguments] example: content\content_admin/content_types/[arguments]
 * section path via naming convention : [suffix]/[namespace]/[method]  example;  [admin || form || api]/blog/blog_posts
 
-
 ###examples
 
 ```
@@ -158,7 +157,6 @@ http://demo.phype.net/index.php?admin/admin/module/blog
 ```
 
 ## Module Building
-
 ### Overview
 
 Modules are a set of class declaration files, any desired helper classes and a configuration file. Contain them in a directory of the same name
@@ -172,7 +170,6 @@ _controllers
             [module]_config.inc
 
 ```
-
 ###Examples
 
 ```
