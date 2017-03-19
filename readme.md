@@ -104,7 +104,7 @@ The Phype framework interprets asked for URLs in a MVC pattern to output provide
 * section path via naming convention : [suffix]/[namespace]/[method]  example;  [admin || form || api]/blog/blog_posts
 
 
-examples:
+###examples
 
 ```
 
@@ -119,10 +119,12 @@ http://demo.phype.net/index.php?admin/admin/module/blog
           [module]
               [module].class.inc
               [module]_[type].class.inc
-              
+``` 
+            
   Entering the proper strings from the above URL translates to http://demo.phype.net/index.php?[["admin" || "admin"]_["admin"]]/["module"]/["blog"].
   Which leads to the following method locate in the "admin" module directory in the "admin_admin".class.inc file.
   
+```
   function module()
       {
           global $cck;
@@ -154,6 +156,7 @@ http://demo.phype.net/index.php?admin/admin/module/blog
 
  
 ```
+
 ## Module Building
 
 ### Overview
@@ -170,7 +173,7 @@ _controllers
 
 ```
 
-examples: 
+###Examples
 
 ```
 _controllers
