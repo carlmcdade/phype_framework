@@ -115,8 +115,8 @@ example:
 _controllers
         blog
             blog.class.inc 
-            blog_[admin].class.inc
-            blog_[form].class.inc
+            blog_admin.class.inc
+            blog_form.class.inc
             blog_config.inc
 
 ```
