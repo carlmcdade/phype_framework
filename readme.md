@@ -214,7 +214,7 @@ Phype uses HTML5 supported form elements.
 
 ## Fields
 
-
+Fields are virtual containers for HTML5 form elements
     
 @TODO:
 
