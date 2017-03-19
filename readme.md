@@ -32,7 +32,7 @@ Demo: http://demo.phype.net/
 
 Contact Author : https://twitter.com/carlmcdade
 
-###Requirements
+### Requirements
 
     - PHP version 7.0 or above.
 	- SQLite3 enabled (included in PHP7)
@@ -40,7 +40,7 @@ Contact Author : https://twitter.com/carlmcdade
 	- PDO enabled
     
     
-###Installation
+### Installation
 
 After meeting the requirements.
 
@@ -48,7 +48,7 @@ After meeting the requirements.
 2. configure the instance 
 
 
-###Configuration
+### Configuration
 
     Go to the directory "_configuration" find the default directory and copy it. Rename the copy
 	with the domain name ex. [www.myhost.com]
@@ -63,7 +63,7 @@ After meeting the requirements.
 	Tip: If you are going to develop simultaneously on a local PC then create a configuration copy for the local web server.
 	
 
-###Architecture
+### Architecture
 
 ```    _configuration
         [domain.name.com]
@@ -121,7 +121,7 @@ http://demo.phype.net/index.php?admin/admin/module/blog
               [module]_[type].class.inc
 ``` 
             
-  Entering the proper strings from the above URL translates to demo.phype.net/index.php? [["admin" || "admin"]_["admin"]]/["module"]/["blog"].
+  Entering the proper strings from the above URL translates to demo.phype.net/index.php? [["admin"] OR ["admin_admin"]]/["module"]/["blog"].
   Which leads to the following method locate in the "admin" module directory in the "admin_admin".class.inc file.
   
 ```
