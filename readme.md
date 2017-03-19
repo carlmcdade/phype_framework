@@ -65,7 +65,7 @@ Configuration:
 
 Architecture:
 
-    _configuration
+```    _configuration
         [domain.name.com]
             config.inc
         [default]
@@ -90,6 +90,7 @@ Architecture:
     cck.php
     index.php
     .htaccess
+```
 
 ## MVC Routing
 
@@ -97,11 +98,11 @@ Architecture:
 
 The Phype framework interprets asked for URLs in a MVC pattern to output provided by PHP namespaces, classes and methods. The bootstrap of the index.php file detects the route and forwards the request to the controller/modules in a set order with options. Class and method in the request  the uri fo the request can be recieved in the following forms.
  
-```      
-       * explicit section class called: [namespace]\[class]/[method][arguments] example; content\content_admin/content_types/[arguments]
-       * main class called: [class]/[method]/ example: blog/blog_list
-       * section class call via naming convention : [suffix]/[namespace]/[method]  example;  [admin || form || api]/blog/blog_posts
-```
+      
+* default path selection: [class]/[method]/ example: blog/blog_list
+* optional explicit path: [namespace]\[class]/[method][arguments] example: content\content_admin/content_types/[arguments]
+* section path via naming convention : [suffix]/[namespace]/[method]  example;  [admin || form || api]/blog/blog_posts
+
 
 examples:
 
