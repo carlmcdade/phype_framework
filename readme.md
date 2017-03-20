@@ -177,6 +177,8 @@ http://demo.phype.net/index.php?admin/admin/module/blog
  
 ```
 
+[view this](http://demo.phype.net/index.php?admin/admin/module/blog)
+
 ## Module Building
 
 ### Overview
@@ -205,6 +207,8 @@ _controllers
             blog_config.inc
 
 ```
+[view this](http://demo.phype.net/index.php?admin/admin/documentation/blog)
+
 
 ## Template System
 
