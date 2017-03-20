@@ -77,7 +77,8 @@ $settings['system']['base_url']['value'] = "http://demo.phype.net";
 Once this has been set you can continue to do the configuration manually or web browse to http://your_domain.com/index.php?admin/main
 	
 ```
-Tip: If you are going to develop simultaneously on a local PC then create a configuration copy for the local web server.
+Tip: If you are going to develop simultaneously on a local PC then create a configuration 
+copy for the local web server.
 ```	
 
 ### Architecture
