@@ -241,11 +241,15 @@ Building content types is easy. Just pick a name and start adding any number of 
 
 ## Forms
 
-Phype uses HTML5 supported form elements.
+Phype uses HTML5 supported form elements. Form elements are listed in the administration and can be edited in the GUI.
+
+[view this](http://demo.phype.net/index.php?admin/content/content_type_fields/1)
 
 ## Fields
 
 Fields are virtual containers for HTML5 form elements
+
+[view this](http://demo.phype.net/index.php?admin/content/content_type_fields/1)
     
 @TODO:
 
