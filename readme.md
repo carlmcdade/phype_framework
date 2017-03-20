@@ -232,6 +232,13 @@ Out of the box responsive default themes.
 
 Content types are virtual containers for the forms and fields needed to create, update and delete user content. 
 
+Building content types is easy. Just pick a name and start adding any number of HTML5 form elements to the content type.
+[view this][(http://demo.phype.net/index.php?admin/content/content_type_add)
+
+
+
+[view this][(http://demo.phype.net/index.php?admin/content/content_type_list)
+
 ## Forms
 
 Phype uses HTML5 supported form elements.
