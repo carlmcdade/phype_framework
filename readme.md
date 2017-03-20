@@ -60,7 +60,7 @@ Contact Author : https://twitter.com/carlmcdade
     
 ### Installation
 
-After meeting the requirements the installation of Phype frame could not be easier.
+After meeting the requirements the installation of Phype framework could not be easier.
 
 1. Create an instance by placing the archive contents in a directory or the root directory on the web server.
 2. configure the instance
