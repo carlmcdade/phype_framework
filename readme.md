@@ -68,15 +68,12 @@ After meeting the requirements.
 
 ### Configuration
 
-    Go to the directory "_configuration" find the default directory and copy it. Rename the copy
-	with the domain name ex. [www.myhost.com]
+Go to the directory "_configuration" find the default directory and copy it. Rename the copy with the domain name ex. [www.myhost.com]
+Find the config.inc file and change the following line to match your domain or sub-domain   
 
-	Find the config.inc file and change the following line to match your domain or sub-domain
-
-	$settings['system']['base_url']['value'] = "http://demo.phype.net";
-
-	Once this has been set you can continue to do the configuration manually or web browse to
-	http://your_domain.com/index.php?admin/main
+```	$settings['system']['base_url']['value'] = "http://demo.phype.net";
+```
+Once this has been set you can continue to do the configuration manually or web browse to http://your_domain.com/index.php?admin/main
 	
 	Tip: If you are going to develop simultaneously on a local PC then create a configuration copy for the local web server.
 	
