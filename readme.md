@@ -250,6 +250,10 @@ Phype uses HTML5 supported form elements. Form elements are listed in the admini
 Fields are virtual containers for HTML5 form elements
 
 [view this](http://demo.phype.net/index.php?admin/content/content_type_fields/1)
+
+Once a field has been added to a content type that field can then be edited further.
+
+[view this](http://demo.phype.net/index.php?admin/content/content_type_field_edit/1/3)
     
 @TODO:
 
