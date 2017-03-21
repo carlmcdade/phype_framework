@@ -145,7 +145,7 @@ http://demo.phype.net/index.php?admin/admin/module/blog
   Entering the proper strings from the above URL translates to demo.phype.net/index.php? [["admin"] OR ["admin_admin"]]/["module"]/["blog"].
   Which leads to the following method locate in the "admin" module directory in the "admin_admin".class.inc file.
   
-```
+```php
   function module()
       {
           global $cck;
